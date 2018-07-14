@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>War</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <form class="game" action="index.html" method="post">
+        <header>
+          <button type="button" id="go" name="button">Deal</button>
+          <button type="button" id="bet10" class="bet ten" name="button">Bet 10$</button>
+          <button type="button" id="bet20" class="bet twenty" name="button">Bet 20$</button>
+          <button type="button" id="bet50" class="bet fifty" name="button">Bet 50$</button>
+          <button type="button" id="bet100" class="bet hundo" name="button">Bet 100$</button>
+          <a href="/">Restart</a>
+        </header>
+        <h1>House matches all bets</h1>
+        <h2>Pot</h2>
+        <p id="pot"></p>
+        <h2>How much you are betting?</h2>
+        <p id="bet"></p>
+        <div class="cpu">
+          <section>
+            <ul class="hand">
+              <li> <img src="card.jpg" alt=""> </li>
+              <li> <img src="card.jpg" alt=""> </li>
+              <li> <img src="card.jpg" alt=""> </li>
+              <li class="cpucard"> <img src="" id="cardSuite" alt=""> </li>
+            </ul>
+          </section>
+        </div>
+        <div class="user">
+          <section>
+            <ul class="hand">
+              <li> <img src="card.jpg" alt=""> </li>
+              <li> <img src="card.jpg" alt=""> </li>
+              <li> <img src="card.jpg" alt=""> </li>
+              <li class="usercard"><img src="" id="cardSuite2" alt=""> </li>
+            </ul>
+          </section>
+        </div>
+
+        </div>
+      </form>
+      <section class="results">
+        <p id="winner"></p>
+      </section>
+
+    </div>
+
+    <script type="text/javascript" src="main.js">
+
+    </script>
+  </body>
+</html>
